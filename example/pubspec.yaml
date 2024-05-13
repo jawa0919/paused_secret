@@ -1,0 +1,23 @@
+name: paused_secret_example
+description: Demonstrates how to use the paused_secret plugin.
+
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  paused_secret:
+    path: ../
+  cupertino_icons: ^1.0.2
+  
+  is_debug: ^0.0.7
+  permission_handler: ^11.0.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
